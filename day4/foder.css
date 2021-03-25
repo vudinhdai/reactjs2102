@@ -1,0 +1,73 @@
+/* p{
+    color: red;
+} */
+/* .this~.is{
+    color: red;
+} */
+/* .this+.is{
+    color: red;
+} */
+.red-color{
+    color: red;
+}
+.container div p:first-child{
+    color: red;
+}
+.container div p:nth-child(2){
+    color: brown;
+
+}
+.container div p:nth-last-child(1){
+    color: yellow;
+}
+.container div p:only-child{
+    color:blue;
+}
+.username:focus{
+width: 30px;
+}
+.gender:checked{
+    color: red;
+}
+/* a:visited{
+    color: black;
+} */
+a:link{
+    color: red;
+}
+a:active{
+    color: yellow;
+}
+a:hover{
+    color: tomato;
+}
+.para::first-line{
+    color: red;
+}
+.para::first-letter{
+    font-size: 30px;
+}
+.span{
+    font-size: 30px;
+}
+.para::selection{
+    background-color: black;
+    color: yellow;
+}
+.para::before{
+    display: block;
+    contain: "abc";
+}
+.contai{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+.black{
+    background-color: red;
+    width: 20%;
+    height: 20%;
+}
+.contai div p{
+    font-size:3rem;
+}

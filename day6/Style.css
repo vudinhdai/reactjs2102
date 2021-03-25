@@ -1,0 +1,100 @@
+div#block{
+   width: 100px;
+   height: 100px;
+   background-color: yellow;
+}
+@media only all and (min-width: 320px) and (max-width: 374px){
+    div#block {
+        background-color:red;
+    }
+}
+@media only all and (min-width: 374px) and (max-width: 500px){
+    div {
+        background-color:blue;
+        border: 2px solid black;
+    }
+}
+.block{
+    /* position: relative; */
+    top: 30px;
+    left: 30px;
+}
+.relative{
+    /* position: relative ; */
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+.absolute{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.grand{
+    position: relative;
+}
+.calling{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+}
+.transform{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translate(50px, 50px);
+    transform: rotate(45deg);
+
+
+}
+.transform:hover{
+    transition: transform 2s;
+    transform: translate(50px, 50px);
+}
+.search{
+    margin-top: 40px;
+    width: 40px;
+    transition: width 1s;
+}
+.search:focus{
+    transition: width 1s, background-color 2s;
+    width: 700px;
+    background-color: yellow;
+
+}
+@keyframes dance{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 0px;
+        left: 100px;
+    }
+    50%{
+        top: 100px;
+        left: 100px;
+    }
+    75%{
+        top: 100px;
+        left: 0;
+    }100%{
+        top: 0px;
+        left: 0px;
+    }
+
+}
+.animation{
+    border: 2px solid black;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: dance 4s ease-in-out 4s  infinite forwards;
+}

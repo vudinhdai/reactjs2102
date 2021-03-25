@@ -1,0 +1,99 @@
+/* p{
+    font-family: 'Ranchers', chữ thảo;
+    font-style: unset;
+    font-variant: small-caps;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+p{
+    color: #f00;
+    /* direction: ltr; Hướng nào */
+    /* direction: ltr;  */
+    /* cách nhau bao nhiêu( letter-spacing): 2px;
+} */
+    /* letter-spacing: 2px;
+    word-spacing: 20px;
+    text-indent: 30px ;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* white-space: nowrap; */
+    /* k cho doan văn xuống hàng */
+    /* text-overflow: ellipsis; */
+/* }
+div{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 50px; */
+/* } */
+.block{
+    width: 100px;
+    height: 100px;
+}
+.bg--yellow{
+    background-color: yellow;
+}
+.overflow-scroll{
+    overflow: scroll;
+}
+.overflow-auto{
+    overflow: auto;
+}
+.text-shadow{
+    text-shadow:100px 10px 2px gray;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-container{
+    width:100%;
+    height: 30vh;
+    background-image: url("../day5/images/dentran.jpg");
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    /* background-position: center;
+    background-position: bottom right; */
+    /* background-position: top right; */
+    background-attachment:fixed;
+}
+.boder{
+    margin: 20px;
+    /* border: 2px solid black; */
+    border: 2px dotted red;
+    border-bottom: 2px solid red;
+    border-top-color: blue;
+    border-left-color: black;
+}
+h2{
+    /* padding: 10px; */
+    margin:20px ;
+    border: 3px solid black;
+}
+.a1{
+    display: block;
+}
+h2{
+    display: inline;
+    text-align: center;
+}
+.display{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.div1{
+    display: inline-block;
+    width: 70%;
+    float: right;
+    background-color: yellow;
+}
+.div2 img{
+    width: 30%;
+}
+.div3{
+    float: left;
+}

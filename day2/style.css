@@ -1,0 +1,36 @@
+ /* h2{
+    color: red;
+
+} */
+/* cach 2
+article>h2{
+    color: red;
+} */
+
+/* p{
+    color: blue;
+} */
+article>div>h2{
+    color: red;
+}
+#p2{
+    color: blue;
+
+}
+.mau_vang{
+    color: yellow;
+    
+}
+.big_size{
+    color: brown;
+    font-size: 40px;
+}
+p{
+    color: rgb(157, 255, 0);
+}
+.blue-color{
+    color: blue;
+}
+/* #red-color{
+    color: red;
+} */
