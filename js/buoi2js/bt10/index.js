@@ -37,7 +37,16 @@ if(n < 2){
 while(n > 0){
     console.log("n %10", n % 10);
     n = parseInt(n/10);
-}
+}//
+//git init
+//git status
+//git log
+//git add them vao trang thai san sang
+//git add . them tat ca
+// git reset  (thu muc) muon k cho thu muc do len 
+//git config --list load laij
+//git remote add origin https://github.com/vudinhdai/reactjs2102.git xac dinh noi can luu
+
 
 
 
