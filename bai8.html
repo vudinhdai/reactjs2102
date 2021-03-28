@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+// function checkInput() {
+//     let n;
+//     do {
+//         n = prompt("Input n > 0 : ");
+//         n = parseInt(n);
+//     } while (n < 0);
+
+//     let check = checkNumber(n);
+
+//     if (check) {
+//         alert(n + ' is ok');
+//     } else {
+//         alert('no');
+//     }
+// }
+
+// function checkNumber(n) {
+//     while (n > 0) {
+//         let t = n % 10;
+
+//         if (t % 2 === 0) {
+//             return false;
+//         }
+//         n /= 10;
+//     }
+
+//     return true;
+// }
+
+// checkInput();
+
+
+    function check(n){
+        
+        while(n >0){
+            let temp = n % 10;
+            if(temp % 2 ===0){
+                return false;
+            }
+            n/=10;   
+        }
+        return true;
+    }
+    function check1(){
+        let n;
+        do{
+           n = prompt("Nhap vào gia tri n: ");
+           n = parseInt(n);
+
+        }while(n<0);
+        let check2 = check(n);
+        if(check2){
+            document.write(n, "_ YES");
+        }else{
+            document.write(n, "_ NO");
+        }
+        return 0;
+    }
+    check1();
+</script>
+<body>
+
+    
+</body>
+</html>
